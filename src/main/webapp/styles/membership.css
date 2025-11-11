@@ -1,0 +1,158 @@
+.register-container {
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.register-header h2 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.register-header p {
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+.user-info {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #444;
+    font-weight: 500;
+}
+
+.user-info strong {
+	/* color: #fc4e03; */
+    font-size: 1.1rem;
+}
+
+.form-group {
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group .required {
+    color: #e74c3c;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.1);
+}
+
+.form-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.membership-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 1.2rem;
+    padding: 0.8rem 1rem;
+    background-color: #e3f2fd;
+    border-left: 4px solid #2196f3;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.9rem;
+    color: #1565c0;
+    line-height: 1.5;
+}
+
+.icon-info {
+    flex-shrink: 0;
+    color: #2196f3;
+    margin-top: 0.15rem;
+}
+
+.membership-note strong {
+    color: #0d47a1;
+}
+
+.btn-register, .btn-cancel {
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.btn-register {
+    background-color: #28a745;
+    color: white;
+    border: 2px solid #28a745;
+}
+
+.btn-register:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.btn-cancel {
+    background-color: transparent;
+    color: #6c757d;
+    border: 2px solid #6c757d;
+}
+
+.btn-cancel:hover {
+    background-color: #6c757d;
+    color: white;
+}
+
+.alert {
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert.error {
+    background-color: #f8d7da;
+    color: #cc080f;
+    border: 1px solid #f5c6cb;
+}
+
+@media (max-width: 480px) {
+    .register-container {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    .form-actions {
+        flex-direction: column;
+    }
+}
